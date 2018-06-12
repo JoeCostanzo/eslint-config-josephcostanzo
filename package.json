@@ -1,0 +1,37 @@
+{
+  "name": "@joeco/eslint-config-josephcostanzo",
+  "version": "0.0.1",
+  "description": "Joseph Costanzo’s config for [ESLint](http://eslint.org/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoeCostanzo/eslint-config-josephcostanzo.git"
+  },
+  "license": "JSC3",
+  "bugs": {
+    "url": "https://github.com/JoeCostanzo/eslint-config-josephcostanzo/issues"
+  },
+  "homepage": "https://github.com/JoeCostanzo/eslint-config-josephcostanzo#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "syntax",
+    "style"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.5.0"
+  },
+  "engines": {
+    "yarn": ">=0.24.6"
+  }
+}
